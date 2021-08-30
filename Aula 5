@@ -1,0 +1,26 @@
+Exercício 1
+mesmoNome = (nomeFulano == nomeBeltrano)
+
+Exercício 2
+maiorDeIdade = (idade >=18)
+
+Exercício 3
+valorComJuros = (boleto*1.1)
+
+Exercício 4
+mediaAritmetica = (item1 + item2 + item3 + item4 + item5)/5
+
+Exercício 5
+lucroBruto = (receitaLiquida - custoProdutos)
+margemBruta = (lucroBruto/receitaLiquida)*100
+
+Exercício 6
+saldo = 1000
+saldo = (saldo - 99.90)
+saldo = (saldo + 2500)
+saldo = (saldo - 0.10)
+saldo = (saldo * 0.75)
+saldo = (saldo /2)
+console.log("Meu saldo final é", saldo)
+
+
