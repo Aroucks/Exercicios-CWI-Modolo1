@@ -1,0 +1,40 @@
+Exercício 1
+
+pets = ["gato", "cachorro", "galinha", "papagaio"]
+index = 0
+
+do { console.log(pets[index])
+index++
+}while(index < pets.length)
+
+Exercício 2
+
+num = [1, 3, 9, 10, 18]
+soma = 0
+
+for (i=0; i < num.length; i++)
+{
+soma = soma + num [i]
+resultado = soma / num.length}
+
+console.log("Média Aritmetica" + resultado)
+
+Exercício 3 
+nomesComuns = ["Miguel", "Laura", "Lucas", "Beatriz", "Guilherme", "Maria", "Gabriel", "Ana", "Arthur", "Júlia", 
+"Enzo", "Alice", "Rafael", "Mariana", "João", "Larissa", "Gustavo", "Maria Eduarda", "Pedro", "Sofia", 
+"Bernardo", "Isabela", "Matheus", "Helena", "Davi", "Camila", "Heitor", "Lara", "Henrique", "Valentina", 
+"Bruno", "Letícia", "Samuel", "Luana", "Felipe", "Amanda", "Lorenzo", "Yasmin", "Benjamin", "Sophia", 
+"Vinícius", "Rebeca", "Rodrigo", "Juliana", "Eduardo", "Bruna", "Diego", "Cecília", "Antônio", "Fernanda", 
+"Leonardo", "Isadora", "Noah", "Lorena", "Nícolas", "Lívia", "Daniel", "Manuela", "Thiago", "Vitória"]
+
+meuNome = ["Stefanny"]
+nomeComum = false
+
+for (i=0; i < nomesComuns.length; i++)
+{   
+if (meuNome[0] == nomesComuns[i])
+{nomeComum = true}}
+if(nomeComum)
+  console.log("É, nome comum :P")
+  else
+{console.log("Diferentão, hein? XD")}
